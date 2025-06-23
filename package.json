@@ -1,0 +1,26 @@
+{
+  "name": "gerenciador-videos",
+  "version": "1.0.0",
+  "description": "API para gerenciamento de vídeos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --no-warnings server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "videos"
+  ],
+  "author": "Fernando Simões",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^5.4.0",
+    "postgres": "^3.4.7"
+  },
+  "devDependencies": {
+    "dotenv": "^16.5.0",
+    "neondatabase": "^0.0.1-security"
+  }
+}
