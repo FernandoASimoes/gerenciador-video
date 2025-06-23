@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://gerenciador-video-udcp.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -9,11 +9,11 @@ Content-Type: application/json
 
 ###fcx 
 
-GET http://localhost:3333/videos?search=node
+GET https://gerenciador-video-udcp.onrender.com/videos?search=node
 
 ###
 
-PUT http://localhost:3333/videos/bf32c83b-fdf1-4acb-a738-19b01a1dc4be
+PUT https://gerenciador-video-udcp.onrender.com/videos/bf32c83b-fdf1-4acb-a738-19b01a1dc4be
 Content-Type: application/json
 
 {
@@ -25,4 +25,4 @@ Content-Type: application/json
 ###
 
 
-DELETE http://localhost:3333/videos/bf32c83b-fdf1-4acb-a738-19b01a1dc4be
+DELETE https://gerenciador-video-udcp.onrender.com/videos/bf32c83b-fdf1-4acb-a738-19b01a1dc4be
